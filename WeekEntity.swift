@@ -11,6 +11,7 @@ import CoreData
 
 class WeekEntity: NSManagedObject {
 
+    ///Test test
     @NSManaged var firstWeekDay: NSDate
     @NSManaged var weekID: NSNumber
     @NSManaged var weekSchedules: String
